@@ -1,0 +1,41 @@
+.post_add_page{
+    padding: 46px 0px 30px 0px;
+}
+.post_add_page .edit_icon{
+    display: inline-block;
+    border: 2px solid #e64545;
+    padding: 20px 18px 20px 22px;
+}
+.post_add_page .edit_icon i{
+    font-size: 40px;
+    color: #e64545;
+}
+.term_of_service button{
+    margin: auto;
+}
+.got_a_quistion .dis_tble{
+    width: 100%;
+    display: table;
+}
+.got_a_quistion .dis_tble_cl{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    width: 50%;
+}
+.sell_quickly ul li{
+    display: table;
+    width: 100%;
+    margin-bottom: 15px
+}
+.sell_quickly ul li:last-child{
+    margin-bottom: 0px
+}
+.sell_quickly ul li img, .sell_quickly ul li p{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+.sell_quickly ul li img{
+    margin-right: 10px;
+}

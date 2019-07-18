@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Title -->
+  <title>Ragistration</title>
+
+
+ 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- FontAwesome css -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+ 
+  <!-- Style css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Responsive css -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="registration_page">
+  <div class="container">
+    <div class="stepwizard col-md-offset-3">
+      <div class="stepwizard-row setup-panel">
+        <div class="stepwizard_step">
+          <a href="#step-1" type="button" class="btn_active btn_circle rounded-circle">1</a>
+          <p class="font_bold">Verification</p>
+        </div>
+        <div class="stepwizard_step">
+          <a href="#step-2" type="button" class="btn_circle rounded-circle" disabled="disabled">2</a>
+          <p class="font_bold">Information</p>
+        </div>
+        <div class="stepwizard_step">
+          <a href="#step-3" type="button" class="btn_circle rounded-circle" disabled="disabled">3</a>
+          <p class="font_bold">Complete</p>
+        </div>
+      </div>
+    </div>
+    <form role="form" action="" method="post">
+      <!-- Step 1 start -->
+      <div class="row stp_content" id="step-1">
+        <div class="col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+
+
+         
+    
+
+
+         <div class="form-group">
+            <label class="control-label font_bold">Phone Number</label>
+            <input maxlength="100" type="text" required="required" id="phone" class="form-control" placeholder="Enter Your Phone number" />
+          </div>
+          <div class="form-group">
+            <label class="control-label font_bold">Email ID</label>
+            <input maxlength="100" type="email" required="required" id="email" class="form-control" placeholder="Enter Your Email" />
+          </div>
+
+           <div class="custom-control custom-checkbox"><br/>
+            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+          </div>
+    
+          <button id="nextforreg" class="btn btn-outline-danger nextBtn btn-lg text-center d-block w-100 mt-4" type="button">Next</button>
+
+         <!---- end email model --->
+          
+
+         <!----- show phone model ----->
+
+
+
+              
+         <!---- end phone model ----->
+
+
+         
+
+         <!--- model for error or empty input --->
+
+
+
+
+         <!---- end model empty input ---->
+            
+         
+         
+        </div>
+      </div>
+      <!-- Step 1 end -->
+      <!-- Step 2 start -->
+      <div class="row stp_content" id="step-2">
+        <div class="col-xl-6 offset-xl-3">
+          <div class="form-group">
+            <label class="control-label font_bold">User Name</label>
+            <input maxlength="100" type="text" required="required" class="form-control" readonly placeholder="Md. Anwar Hossain"/>
+          </div>
+          <div class="form-group">
+            <label class="control-label font_bold">Password</label>
+            <input maxlength="100" type="password" required="required" class="form-control" placeholder="Enter Your Password" />
+          </div>
+          <div class="form-group">
+            <label class="control-label font_bold">Conform Password</label>
+            <input maxlength="100" type="password" required="required" class="form-control" placeholder="Conform Your Password" />
+          </div>
+          <div class="form-group">
+            <label class="control-label font_bold">Locations</label>
+            <select name="Locations" id="Locations" class="form-control">
+              <option value="Dhaka">Dhaka</option>
+              <option value="Password">Chottogram</option>
+              <option value="Rajshahi">Rajshahi</option>
+              <option value="Sylhet">Sylhet</option>
+              <option value="Khulna">Khulna</option>
+              <option value="Chapai Nawabgonj">Chapai Nawabgonj</option>
+              <option value="Pabna">Pabna</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="control-label font_bold">Account Type </label>
+            <select name="Account" id="Account" class="form-control">
+              <option value="Supplier">Supplier</option>
+              <option value="Buyer">Buyer</option>
+              <option value="Both">Both</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="control-label font_bold">Full Name</label>
+            <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Your Full Name" />
+          </div>
+          <div class="form-group">
+            <label class="control-label font_bold">Company Name</label>
+            <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Your Company Name" />
+          </div>
+          <div class="form-group">
+            <label class="control-label font_bold">Phone Number</label>
+            <input maxlength="100" type="number" required="required" class="form-control" placeholder="Enter Your Phone Number" />
+          </div>
+          <button class="btn btn-outline-danger nextBtn btn-lg text-center d-block w-100 mt-4" type="button">Next</button>
+        </div><br/><br/>
+      </div><br/><br/>
+      <!-- Step 2 end -->
+      <!-- Step 3 start -->
+      <div class="row stp_content" id="step-3">
+        <div class="col-xl-6 offset-xl-3">
+          <p class="text-center">Thank You For Registration</p>
+          <button class="btn btn-outline-danger nextBtn btn-lg text-center d-block w-100 mt-4" type="submit">Go Back</button>
+        </div>
+      </div>
+      <!-- Step 3 end -->
+    </form>
+
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confirmation Email</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="alert alert-success" role="alert">
+          Your email is successfully granted.Please check your email and Confirm!
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Phone Verification</h5>
+      </div>
+      <div class="modal-body">
+        <div class="alert alert-success" role="alert">
+          Your Phone number is successfully granted.We are sending Verify code in your phone Please Verify
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Code:</label>
+            <input type="text" class="form-control" id="phonecode" placeholder="Enter Code">
+          </div>
+      
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script type="text/javascript">
+  	
+    $(document).ready(function(){
+      $('#nextforreg').click(function(){
+        var phone = $('#phone').val();
+        var email = $('#email').val();
+        if(phone != ""){
+          $('#exampleModal3').modal('show');
+        }else if(email != ""){
+           $('#exampleModal2').modal('show');
+        }
+        	
+      }); 
+
+
+    });
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+.single_post_page{
+    padding: 46px 0px 30px 0px;
+}
+
+.custom_breadcrumb{
+    padding: 10px 15px;
+}
+.custom_breadcrumb .breadcrumb{
+    padding: 0;
+    background-color: transparent;
+    margin: 0;
+}
+.custom_breadcrumb .dropdown button{
+    padding: 0;
+    font-size: inherit;
+}
+.social_icon_single{
+    border-top: 1px solid gainsboro;
+}
+.social_icon_single .translate_img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.social_icon_single .browse_social_icon ul li a i{
+    width: 40px;
+    height: 40px;
+    background-color: #3B5998;
+    display: inline-block;
+    padding: 13px 0;
+    margin: 0 5px;
+    text-align: center;
+}
+.social_icon_single .browse_social_icon ul li a i.fa-twitter{
+    background-color: #55ACEE;
+}
+.social_icon_single .browse_social_icon ul li a i.fa-google-plus{
+    background-color: #dd4b39;
+}
+.social_icon_single .browse_social_icon ul li a i.fa-play{
+    background-color: #bb0000;
+}
+.social_icon_single .browse_social_icon ul li a i.fa-link{
+    background-color: #ea4c89;
+}
+.review ul li{
+    margin-right: 8px;
+}
+.review ul li:last-child{
+    margin-right: 0px;
+}
+.comments ul li{
+    border-bottom: 1px solid gainsboro;
+    padding: 30px 0;
+}
+.comments ul li:last-child{
+    border-bottom: none;
+    padding: 30px 0px 20px 0px;
+}
+.comments ul li ul li{
+    margin-right: 12px;
+    border-bottom: none;
+}
+.comments ul li ul li:last-child{
+    margin-right: 0px;
+}
+.check_details_area ul li{
+    margin-bottom: 20px;
+}
+.check_details_area ul li:last-child{
+    margin-bottom: 0px;
+}
+.check_details{
+    display: table;
+    width: 100%;
+}
+.check_details .check_details_content{
+    display: table-cell;
+    float: none;
+    vertical-align: top;
+}
+.check_details .check_details_content p{
+    margin-left: 15px;
+}
+.single_post_page .sign_in_inner .key_icon{
+    font-size: 40px;
+    color: #e64545;
+    border: 1px solid #e64545;
+    border-radius: 50%;
+    padding: 6px 0px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    display: inline-block;
+}
+.single_post_page .sign_in_inner .input-group-text{
+    display: block;
+    width: 40px;
+}
+.single_post_page .social_sing ul li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 8px 0;
+    margin: 0 4px;
+    background-color: #fff;
+}
+.single_post_page .social_sing ul li a:hover{
+    background: #e64545;
+    color: #fff;
+}

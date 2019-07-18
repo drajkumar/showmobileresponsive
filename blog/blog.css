@@ -1,0 +1,77 @@
+.blog_page{
+    padding: 40px 0 10px 0;
+}
+.blog_section{
+    padding-top: 30px;
+}
+.blog_item{
+    height: 450px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.blog_item img{
+    height: 100%;
+}
+.blog_item .blog_title{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+    padding: 15px;
+}
+.blog_item .blog_title h3{
+    font-size: 22px;
+    line-height: 30px;
+}
+.blog_item span.blog_add{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    display: none;
+}
+.blog_item .blog_item_overlay{
+    height: 100%;
+    background-color: rgb(67, 82, 103);
+}
+.blog_item:hover .blog_title, .blog_item:hover img{
+    opacity: 0;
+}
+.blog_item:hover span.blog_add{
+    display: block;
+    z-index: 99999;
+}
+.blog_single span a:hover{
+    color: #07afff;
+}
+/* Blog single css start */
+.blog_single{
+    padding-bottom: 10px;
+}
+.blog_single img{
+    margin-top: 20px;
+}
+.blog_single img:first-child{
+    margin-top: 0px;
+}
+.blog_single h4{
+    margin-top: 20px;
+}
+.blog_single p{
+    margin-top: 20px;
+}
+.blog_single p:first-child{
+    margin-top: 0px;
+}
+.right_sideber ul.social_icon li a{
+    font-size: 20px;
+    background: #3e7ebf;
+    width: 50px;
+    padding: 5px;
+}
+.right_sideber ul.social_icon li a:hover{
+    background: #e64545;
+}

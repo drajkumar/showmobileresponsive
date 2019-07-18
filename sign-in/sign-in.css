@@ -1,0 +1,31 @@
+.sign_in_inner{
+    margin: 50px 0px 30px 0px;
+    background: #f1f1f1;
+}
+.sign_in_inner .key_icon{
+    font-size: 40px;
+    color: #e64545;
+    border: 1px solid #e64545;
+    border-radius: 50%;
+    padding: 6px 0px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    display: inline-block;
+}
+.sign_in_inner .input-group-text{
+    display: block;
+    width: 40px;
+}
+.social_sing ul li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 8px 0;
+    margin: 0 4px;
+    background-color: #fff;
+}
+.social_sing ul li a:hover{
+    background: #e64545;
+    color: #fff;
+}
